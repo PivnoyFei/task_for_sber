@@ -62,9 +62,9 @@ if __name__ == "__main__":
 
     nizhny_map.add_polygon(NINO_POLYGON, polygon_layer)
     nizhny_map.add_controls()
-    nizhny_map.show_map().save("nizhny_map.html")
+    nizhny_map.show_map().save("index.html")
 
     # Открываем ссылку в браузере. Если не нужно, закомментируйте.
     import os
     import webbrowser
-    webbrowser.open('file://' + os.path.realpath('nizhny_map.html'))
+    webbrowser.open('file://' + os.path.realpath('index.html'))
