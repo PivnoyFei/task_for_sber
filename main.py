@@ -5,6 +5,17 @@ import folium
 import folium.plugins
 
 path: Path = Path("interesting_places.json")
+""" можно было сделать и через pydantic но по моему оверхед.
+example json code:
+[
+    {
+        "location": [56.3284, 44.0025],
+        "tooltip": "Нижегородский Кремль",
+        "popup": "Нижегородский Кремль",
+        "icon": {"icon": "flag"}
+    },
+]
+"""
 datas: list[dict] = json.loads(path.read_text(encoding="utf-8"))
 
 # Примерные координаты границ Нижнего Новгорода

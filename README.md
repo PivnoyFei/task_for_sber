@@ -1,5 +1,7 @@
 <h1 align="center">task_for_sber</h1>
 
+### Ссылка на проект https://pivnoyfei.github.io/task_for_sber/
+
 ### Стек:
 ![Python](https://img.shields.io/badge/Python-171515?style=flat-square&logo=Python)![3.12](https://img.shields.io/badge/3.12-blue?style=flat-square&logo=3.12)
 ![Folium](https://img.shields.io/badge/Folium-171515?style=flat-square&logo=Folium)
